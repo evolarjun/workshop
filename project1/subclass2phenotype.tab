@@ -1,0 +1,24 @@
+inhibitor-resistant.*LACTAM\tBETA-LACTAM	SAM	Ampicillin/sulbactam (SAM)
+inhibitor-resistant.*LACTAM\tCEPHALOSPORIN	SAM	Ampicillin/sulbactam (SAM)
+CARBAPENEM	SAM	Ampicillin/sulbactam (SAM)
+
+BETA-LACTAM\tBETA-LACTAM	TZP	Piperacillin/tazobactam (TZP)
+CEPHALOSPORIN	TZP	Piperacillin/tazobactam (TZP)
+CARBAPENEM	TZP	Piperacillin/tazobactam (TZP)
+
+CEPHALOSPORIN	FEP	Cefepime (FEP)
+CARBAPENEM	FEP	Cefepime (FEP)
+
+CARBAPENEM	IPM	Imipenem (IPM)
+
+AMIKACIN	AN	Amikacin (AN)
+
+GENTAMICIN	G	Gentamicin (G)
+
+QUINOLONE	CIP	Ciprofloxacin (CIP)
+TRIMETHOPRIM,SULFONAMIDE	SXT	Trimethoprim-sulfamethoxazole (SXT)
+TETRACYCLINE	MI	Minocycline (MI)
+COLISTIN	PB	Polymyxin B (PB)
+QUINOLONE	LVX	Levofloxacin (LVX)
+
+
