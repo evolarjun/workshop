@@ -4,7 +4,7 @@ use warnings;
 #use GTB::File qw(Open);
 
 #my $in = Open('spreadsheet-phenotypes.tab2');
-my $in
+my $in;
 open($in, 'spreadsheet-phenotypes.tab') 
     or die "Couldn't open spreadsheet-phenotypes.tab: $!";
 
