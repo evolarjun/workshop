@@ -16,9 +16,18 @@ AMIKACIN	AN	Amikacin (AN)
 GENTAMICIN	G	Gentamicin (G)
 
 QUINOLONE	CIP	Ciprofloxacin (CIP)
+
 TRIMETHOPRIM,SULFONAMIDE	SXT	Trimethoprim-sulfamethoxazole (SXT)
+
 TETRACYCLINE	MI	Minocycline (MI)
+
 COLISTIN	PB	Polymyxin B (PB)
+
 QUINOLONE	LVX	Levofloxacin (LVX)
 
+# The following will generate a lot of false predictions of resistance
+# because details about when these usually chromosomal genes cause resistance
+# are not known.
+EFFLUX  SXT     Trimethoprim-sulfamethoxazole (SXT)
+EFFLUX  AN      Amikacin (AN)
 
