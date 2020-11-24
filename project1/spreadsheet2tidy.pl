@@ -1,9 +1,12 @@
 #!/bin/env perl
 use strict;
 use warnings;
-use GTB::File qw(Open);
+#use GTB::File qw(Open);
 
-my $in = Open('spreadsheet-phenotypes.tab2');
+#my $in = Open('spreadsheet-phenotypes.tab2');
+my $in
+open($in, 'spreadsheet-phenotypes.tab') 
+    or die "Couldn't open spreadsheet-phenotypes.tab: $!";
 
 my $h = <$in>;
 chomp($h);
